@@ -12,8 +12,12 @@ Der Bug sollte keine Leute oder kritische Sachen filmen können.
 - Umsetzung:
 
 # Hardware
+- In etwa so: [Projekt auf Hackaday](https://hackaday.io/project/163542-esp32-wifi-robot)
+- Eventuell mit optionalem Schienenfahrwerk und Zahnstange für die Treppe
+
 - AI Thinker ESP32-CAM
 - 28BJY-48 Geared Stepper
+- Hat wenig Pins (8 Stück werden für Stepper gebraucht)
 
 # Software
 - Soll mit ROS kompatibel sein

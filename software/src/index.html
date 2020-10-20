@@ -1,0 +1,19 @@
+const char PAGE_index[] PROGMEM = R"=====(
+
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<p>Press W-A-S-D to control the ReaktorBug</p>
+		<script>
+			document.addEventListener('keydown', function(e) {
+				var xhttp = new XMLHttpRequest();
+				xhttp.open("GET", "/submit?button="+e.key,  true);
+ 				xhttp.send();
+			})
+		</script>
+	</body>
+</html>
+
+)=====";

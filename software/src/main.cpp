@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include "TinyStepper_28BYJ_48/TinyStepper_28BYJ_48.h"
-#include "WiFiManager/WiFiManager.h"
+#include <TinyStepper_28BYJ_48.h>
+#include <WiFiManager.h>
 #include "index.html"
 
 #include <ESP8266WiFi.h>
